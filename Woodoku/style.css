@@ -1,0 +1,50 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+td[data-value="1"], td[data-value="2"], td[data-value="3"], td[data-value="7"], td[data-value="8"], td[data-value="9"],
+td[data-value="10"], td[data-value="11"], td[data-value="12"], td[data-value="16"], td[data-value="17"], td[data-value="18"],
+td[data-value="19"], td[data-value="20"], td[data-value="21"], td[data-value="25"], td[data-value="26"], td[data-value="27"], 
+td[data-value="31"], td[data-value="32"], td[data-value="33"], td[data-value="40"], td[data-value="41"], td[data-value="42"],
+td[data-value="49"], td[data-value="50"], td[data-value="51"], td[data-value="55"], td[data-value="56"], td[data-value="57"],
+td[data-value="64"], td[data-value="65"], td[data-value="66"], td[data-value="73"], td[data-value="74"], td[data-value="75"],
+td[data-value="61"], td[data-value="62"], td[data-value="63"], td[data-value="70"], td[data-value="71"], td[data-value="72"],
+td[data-value="79"], td[data-value="80"], td[data-value="81"]{
+    background-color: #4E1B0A;
+}
+
+td[data-value="4"], td[data-value="5"], td[data-value="6"], td[data-value="13"], td[data-value="14"], td[data-value="15"],td[data-value="22"], td[data-value="23"], td[data-value="24"],
+td[data-value="28"], td[data-value="29"], td[data-value="30"], td[data-value="34"], td[data-value="35"], td[data-value="36"],td[data-value="37"], td[data-value="38"], td[data-value="39"],
+td[data-value="43"], td[data-value="44"], td[data-value="45"], td[data-value="46"], td[data-value="47"], td[data-value="48"],td[data-value="52"], td[data-value="53"], td[data-value="54"],
+td[data-value="58"], td[data-value="59"], td[data-value="60"], td[data-value="67"], td[data-value="68"], td[data-value="69"],td[data-value="76"], td[data-value="77"], td[data-value="78"]{
+    background-color: #852B10;
+}
+
+#bloco {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    position: absolute;
+}
