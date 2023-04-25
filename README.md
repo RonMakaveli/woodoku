@@ -1,21 +1,21 @@
-Documentação do Jogo de Tabuleiro
-Introdução
+# Jogo Woodoku
+## Introdução
 
 O jogo de tabuleiro é um jogo simples em que os jogadores devem completar linhas tanto na horizontal quanto na vertical para marcar pontos. O jogo é jogado em um tabuleiro de 9x9, no qual os jogadores devem preencher os espaços vazios com números de 1 a 9.
 Funcionalidades
-1. Iniciar um novo jogo
+## 1. Iniciar um novo jogo
 
 Ao clicar no botão "Novo Jogo", o jogo é iniciado. O tabuleiro é preenchido com números aleatórios e o jogador pode começar a jogar.
-2. Preencher espaços vazios
+## 2. Preencher espaços vazios
 
 Para jogar, o jogador deve clicar em um espaço vazio e digitar um número entre 1 e 9. Se o número digitado for válido e não violar as regras do jogo, ele é adicionado ao espaço selecionado. Caso contrário, o jogador deve tentar novamente.
-3. Verificar linha completada
+## 3. Verificar linha completada
 
 O jogo verifica se o jogador completou uma linha (horizontal ou vertical) e adiciona pontos à pontuação do jogador. Se o jogador completar várias linhas ao mesmo tempo, a pontuação será multiplicada pelo número de linhas completadas.
-4. Verificar fim do jogo
+## 4. Verificar fim do jogo
 
 O jogo termina quando todas as linhas (horizontais e verticais) forem completadas ou quando não houver mais espaços vazios no tabuleiro.
-5. Reiniciar o jogo
+## 5. Reiniciar o jogo
 
 Ao clicar no botão "Reiniciar", o jogo é reiniciado e o tabuleiro é preenchido novamente com números aleatórios.
 Tecnologias utilizadas
